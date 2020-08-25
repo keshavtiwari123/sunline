@@ -12,11 +12,80 @@ body{
 	padding: none;
 }
 #div1{
+	width: 100%;
 	height: 100%;
-	position: relative;
+	background-color: grey;
+	z-index: 2;
+	position: absolute;
 	top: 80px;
-	background-image: url("family.jpeg");
+	left: -5px;
+	color: white;
 }
+.name{
+	font-size: 25px;
+	text-decoration: underline;
+}
+#included, #panels, #cost, #inverter{
+	width: 40%;
+	text-align: left;
+	height: 30%;
+	position: relative;
+	font-size: 20px;
+	font-family: "Lucida Console", Courier, monospace;
+}
+#included{
+	left: 10%;
+}
+#cost{
+	position: relative;
+	top: -30%;
+	left: 10%;
+}
+
+#panels{
+	top: -30%;
+	left: 60%;
+}
+#inverter{
+	top: -60%;
+	left: 60%;
+}
+#ad{
+	position: relative;
+	height: 8%;
+	top: 10px;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-size: 40px;
+	font-family: "Lucida Console", Courier, monospace;
+}
+#quote2{
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	width: 30%;
+	border-radius: 5px;
+	background-color: #fc6f00;
+	top: -60%;
+	left: 15%;
+	padding: 2% 2%;
+	text-align: center;
+	font-family: "Lucida Console", Courier, monospace;
+	webkit-transition: background-color .4s ease;
+	transition: background-color .4s ease;
+	font-family: Poppins,sans-serif
+}
+#quote2:hover{
+	background-color: #0675ec;
+	
+}
+#div1 li{
+	margin: 10px;
+	text-align: left;
+}
+
 #form{
 	height: 750px;
 	width: 600px;
@@ -46,7 +115,7 @@ body{
 	width: 100%;
 	height: 80px;
 	background-color: white;
-	z-index: 2;
+	z-index: 3;
 }
 #logo{
 	z-index: 3;
@@ -62,22 +131,22 @@ body{
 	width: 200px;
 	font-size: 20px;
 	text-align: center;
-	padding: 20px 0px;
+	padding: 20px 2%;
 	border-radius: 5px;
 	cursor: pointer;
+	font-family: "Lucida Console", Courier, monospace;
 	webkit-transition: background-color .4s ease;
 	transition: background-color .4s ease;
 	font-family: Poppins,sans-serif
 }
 #quote:hover{
 	background-color: #0675ec;
-	color: white;
 }
 #home{
 	position: absolute;
 	top: 20px;
 	left: 20%;
-	font-size: 15px;
+	font-size: 20px;
 	padding: 20px;
 }
 #facebook{
@@ -105,14 +174,15 @@ body{
 }
 #footer{
 	position: relative;
-	top: 80px;
+	top: 110%;
 }
-ul{
-	list-style-type: none;
-}
-li{
+
+.list-unstyled li{
 	margin: 10px;
 	text-align: right;
+	list-style-type: none;
+	font-family: "Lucida Console", Courier, monospace;
+	font-size: 20px;
 }
 a{
 	text-decoration: none;
@@ -123,7 +193,7 @@ a:visited{
 }
 #list1{
 	position: relative;
-	left: 50%;
+	left: 30%;
 	width: 15%;
 	height: 30%;
 	font-size: 15px;
@@ -132,16 +202,16 @@ a:visited{
 #list2{
 	position: relative;
 	margin-top: -15%;
-	left: 65%;
-	width: 15%;
+	left: 45%;
+	width: 25%;
 	height: 30%;
 	font-size: 15px;
 }
 #list3{
 	position: relative;
 	margin-top: -15%;
-	left: 80%;
-	width: 15%;
+	left: 70%;
+	width: 20%;
 	height: 30%;
 	font-size: 15px;
 }
