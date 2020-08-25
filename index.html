@@ -18,11 +18,43 @@
 			<div id="facebook"><a href="https://www.facebook.com/SunlineEnergyAU/" target="_blank"><img src="fb.svg"></a></div>
 			<div id="call">
 				<img id="imgcall" src="call.png"></img>
-				<div id="number">+61 123 456 789</div>
+				<div id="number">1300 767 652</div>
 			</div>
 			<div id="quote">GET A FREE QUOTE</div>
 		</div>
-		<div id="div1"></div>
+		<div id="div1">
+			<div id="ad">"AN AD DOESN'T NEED TO LOOK FANCY IF IT HAS VALUE IN IT"</div>
+			<div id="included"><span class="name">WHAT'S INCLUDED</span>
+				<ul>
+					<li>6.6 KW SOLAR SYSTEM</li>
+					<li>20 x 300 WATT HALF CUT MONO PANELS</li>
+					<li>5KW INVERTER WITH WI-FI MONITORING</li>
+					<li>GRID APPROVAL</li>
+				</ul>
+			</div>
+			<div id="panels"><span class="name">PANELS</span>
+				<ul>
+					<li>330 WATT SERAPHIM BLADE PANELS</li>
+					<li>15 YEARS PRODUCT WARRANTY</li>
+					<li>25 YEARS PERFORMANCE WARRANTY</li>
+				</ul>
+			</div>
+			<div id="cost"><span class="name">HOW MUCH DOES IT COST</span>
+				<ul>
+					<li>UPFRONT COST  $0</li>
+					<li>TOTAL OUT OF POCKET $1850 (After SIC Incentive and Solar VIC Rebate)</li>
+					<li>GET $1850 AS INTEREST FREE LOAN</li>
+				</ul>
+			</div>
+			<div id="inverter"><span class="name">INVERTER</span>
+				<ul>
+					<li>5KW GROWATT INVERTER</li>
+					<li>10 YEAR WARRANTY</li>
+					<li>WI-FI MONITORING</li>
+				</ul>
+			</div>
+			<div id="quote2">SOUNDS GREAT!!, SEND ME QUOTE</div>
+		</div>
 		<div id="form">
 			<div id="cross">x</div>
 			<iframe id="ifform" scrolling="no" src="https://sunlineenergy.freshsales.io/web_forms/fdb8fae90424956b240a26be635333be8402d25de22695214c7485d160974d8f/form.html"></iframe>
@@ -54,11 +86,11 @@
 		</div>
 		
 		<script type="text/javascript">
-			$("#quote").click(function(){
+			$("#quote, #quote2").click(function(){
 				$("#form").show();
-				$("#header, #div1, #footer").css("opacity", "0.3");
+				$("#header, #div1, #footer").css("opacity", "0.1");
 			});
-			$("#cross, #div1, #footer").click(function(){
+			$("#cross, #footer").click(function(){
 				$("#form").hide();
 				$("#header, #div1, #footer").css("opacity", "1");
 			});
