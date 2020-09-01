@@ -1,0 +1,234 @@
+#ifform{
+	height: 900px;
+	width: 600px;
+	border: none;
+	position: relative;
+	top: -10px;
+	z-index: 1;
+}
+
+body{
+	background-color: #ebeff3;
+	padding: none;
+	font-family: 'Baloo Tamma 2', cursive;
+	word-spacing: 5px;
+}
+#div1{
+	width: 100%;
+	height: 100%;
+	background-color: #499bea;
+	z-index: 2;
+	position: absolute;
+	top: 80px;
+	left: -5px;
+	color: white;
+}
+.name{
+	font-size: 25px;
+	text-decoration: underline;
+}
+#included, #panels, #cost, #inverter{
+	width: 40%;
+	text-align: left;
+	height: 30%;
+	position: relative;
+	font-size: 20px;
+	border: 1px solid white;
+	border-width: 1px 0px 0px 2px;
+	border-radius: 5px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+#included{
+	left: 5%;
+	top: 20px;
+}
+#cost{
+	position: relative;
+	top: -20%;
+	left: 5%;
+}
+
+#panels{
+	top: -30%;
+	left: 50%;
+}
+#inverter{
+	top: calc(-20px - 50%);
+	left: 50%;
+}
+#ad{
+	position: relative;
+	height: 8%;
+	top: 10px;
+	text-align: center;
+	width: 100%;
+	color: black;
+	font-size: 38px;font-family: 'Indie Flower', cursive;
+}
+#quote2{
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+	position: relative;
+	width: 30%;
+	border-radius: 5px;
+	background-color: #4aca85;
+	top: -55%;
+	left: 15%;
+	padding: 2% 2%;
+	text-align: center;
+	webkit-transition: background-color .4s ease;
+	transition: background-color .4s ease;
+	font-family: "Nunito", Arial, sans-serif;
+}
+#quote2:hover{
+	background: rgb(120, 245, 151);
+	
+}
+#div1 li{
+	margin: 5px;
+	text-align: left;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#form{
+	height: 750px;
+	width: 600px;
+	z-index: 2;
+	position: absolute;
+	top: 50px;
+	left: calc((100% - 600px)/2);
+	display: none;
+}
+#cross{
+	width: 40px;
+	height: 40px;
+	margin: 0;
+	font-size: 60px;
+	font-weight: 300;
+	position: fixed;
+	top: 50px;
+	left: calc(100% - 410px);
+	z-index: 3;
+	cursor: pointer;
+}
+#header{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: white;
+	z-index: 3;
+}
+#logo{
+	z-index: 3;
+	width: 200px;
+	height: 200px;
+}
+#quote{
+	position: absolute;
+	top: 10px;
+	left: 80%;
+	background-color: #4aca85;
+	color: white;
+	width: 210px;
+	font-size: 20px;
+	text-align: center;
+	padding: 21px 2%;
+	border-radius: 5px;
+	cursor: pointer;
+	webkit-transition: background-color .4s ease;
+	transition: background-color .4s ease;
+	font-family: Poppins,sans-serif
+}
+#quote:hover{
+	background-color: rgb(120, 245, 151);
+}
+#home{
+	position: absolute;
+	top: 20px;
+	left: 20%;
+	font-size: 20px;
+	padding: 20px;
+}
+#facebook{
+	position: absolute;
+	top: 20px;
+	left: 55%;
+	padding: 10px;
+	color: blue;
+}
+#call{
+	position: absolute;
+	top: 10px;
+	left: 60%;
+	height: 60px;
+	width: 250px;
+	background: #4aca85;
+	border-radius: 5px;
+	color: white;
+	padding: 3px 0%;
+}
+#imgcall{
+	height: 45px;
+	position: relative;
+	top: 5px;
+}
+#number{
+	position: relative;
+	top: -30px;
+	left: 45px;
+	font-size: 20px;
+}
+#footer{
+	position: relative;
+	top: 110%;
+}
+
+.list-unstyled li{
+	margin: 10px;
+	text-align: right;
+	list-style-type: none;
+	font-size: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:visited{
+	color: black;
+}
+#list1{
+	position: relative;
+	left: 30%;
+	width: 15%;
+	height: 30%;
+	font-size: 15px;
+	margin-top: -80px;;
+}
+#list2{
+	position: relative;
+	margin-top: -15%;
+	left: 45%;
+	width: 25%;
+	height: 30%;
+	font-size: 15px;
+}
+#list3{
+	position: relative;
+	margin-top: -15%;
+	left: 70%;
+	width: 20%;
+	height: 30%;
+	font-size: 15px;
+}
+#particles-js{
+  width: 50%;
+  height: 100%;
+  z-index: 10;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+}
